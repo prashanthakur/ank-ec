@@ -1,0 +1,30 @@
+:root{
+  --main-bg:#791e3c;
+ }
+ 
+ .main-bg {
+   background: var(--main-bg) !important;
+ }
+ 
+ input:focus, button:focus {
+   border: 1px solid var(--main-bg) !important;
+   box-shadow: none !important;
+ }
+ 
+ .form-check-input:checked {
+   background-color: var(--main-bg) !important;
+   border-color: var(--main-bg) !important;
+ }
+ 
+ .card, .btn, input{
+   border-radius:0 !important;
+ }
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #6b6767;
+}
+ 

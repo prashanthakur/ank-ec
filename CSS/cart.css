@@ -1,0 +1,62 @@
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    font-size: xx-large;
+    letter-spacing: 0.3rem;
+    font-weight: 100;
+    color:indianred;
+   }
+
+   h1{
+    width: 650px;
+    color:rgb(49, 17, 17);
+   }
+
+   .backlToList{
+    position: relative;
+    right: -82vw;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem 0rem;
+    background-color: rgb(50, 50, 202);
+    color: aliceblue;
+    
+    padding: 0.4rem 0.5rem;
+    border: 0;
+    cursor: pointer;
+  
+
+   }
+  .counter {
+      width: 150px;
+      margin: auto;
+      display: flex;
+      align-items: center;;
+  }
+  .counter input {
+      width: 50px;
+      border: 0;
+      line-height: 15px;
+      font-size: 20px;
+      text-align: center;
+      color: #faf8f8;
+      appearance: none;
+      outline: 0;
+      background-color: #051b3d;
+      border-radius: 9%;
+  }
+  .up, .down {
+      display: block;
+      font-size: 25px;
+      padding: 0 8px;
+      cursor: pointer;
+      color: #5e6063;
+      user-select: none;
+  }
+  .quan {
+   margin-left: -56px;
+   font-size: 18px;
+   font-weight:500;
+  }

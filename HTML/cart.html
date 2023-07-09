@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>E-commerce App</title>
+  <script src="../JS/cart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <link href="../CSS/cart.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-light bg-light ">
+      <div class="justify-content-center d-flex align-items-center">
+        <a class="navbar-brand">
+          <h3>Welcome to the Page&nbsp;<span id="userName">&nbsp;</span>&nbsp;. . . |</h3>
+        </a>
+      </div>
+      <div class="justify-content-md-end mx-3">
+        <button class=" btn btn-outline-success my-3 mx-5" onclick="dashboard()">Back to Product Page</button>
+        <button class=" btn btn-danger " type="submit" onclick="logout()">logout</button>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <div id="getCartData"></div>
+  <div id="cart-modal-display"></div>
+  <section class="my-4 mx-4">
+    <div id="cart-list" class="row">
+    </div>
+
+  </section>
+</body>
+
+</html>
